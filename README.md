@@ -1,7 +1,7 @@
 # MTS1-Journey-Fyle-2024
 My Full-Time Journey at Fyle Inc. | MTS1 Role
 
-## The Leap from Intern to MTS-1 at Fyle: My Journey 🚀
+## 🔹 The Leap from Intern to MTS-1 at Fyle: My Journey 🚀 (1st July 2024)
 
 Hello, tech enthusiasts and aspiring developers! 👋
 
@@ -11,7 +11,7 @@ So, Fasten your seatbelts as I take you through my exciting leap from an intern 
 
 Buckle up, fellow coders! The journey begins here. Let the journey unfold! 🌟
 
-## From Internship to MTS1: Key Projects 🌱 
+## 🔹 From Internship to MTS1: Key Projects 🌱 
 
 During my internship at Fyle, I got the opportunity to work on a variety of impactful tasks that set the foundation for my role as an MTS1. I have worked on fixing numerous usability issues and bugs but here are some key projects I handled included:
 
@@ -22,7 +22,7 @@ During my internship at Fyle, I got the opportunity to work on a variety of impa
 
 Each of these initiatives has not only tested my technical skills but also given me a chance to take ownership and contribute to real-world features. This experience laid the groundwork for my responsibilities as an MTS1, where the focus shifted from just implementing tasks to thinking holistically about the project, scalability, and future impact.
 
-## A Day in the Life of an MTS1 at Fyle 🌅
+## 🔹 A Day in the Life of an MTS1 at Fyle 🌅
 Ever wondered what it’s like to be an MTS1 at Fyle? Let me take you on a quick trip through a typical day—where ownership, problem-solving, and building something impactful are all in a day’s work.
 
 ### 🚀 10:30 AM - The Work Begins
@@ -61,7 +61,7 @@ As the day winds down, I document any important learnings or insights from the d
 
 By the end of the day, I’ve usually touched multiple aspects—coding, testing, documentation, and collaboration. And even though each day has its unique challenges, the constant learning and ownership make it rewarding. That’s the life of an MTS1 at Fyle—driven by responsibility, collaboration, and building things that last.
 
-## Corporate Cards API Migration 💳 (July 25 - Oct 17 2024)
+## 🔹 Corporate Cards API Migration 💳 (25th July 2024)
 
 This quarter, I’ve been working on the **Corporate Cards API Migration**. This initiative has been a deep dive into corporate card systems and has taught me a lot about both technology and documentation.
 
@@ -71,3 +71,13 @@ This quarter, I’ve been working on the **Corporate Cards API Migration**. This
 Throughout this initiative, I’ve learned so much about **VISA Nest, RTF, Virtual Cards**, and even how **Bank Statements** are handled. I also migrated APIs for **14 different actions**, and **reduced 10 redundant API calls**, all without a single P0 issue so far—feels like winning!!! This initiative has not only strengthened my technical skills but also sharpened my ability to handle complex migrations and work at scale.
 
 Still, one task about exports from this initiative is pending, we are planning to release it in the next two weeks before declaring complete victory.
+
+## 🔹 Move Reminder Dialog To FDL 🔔 (16th Oct 2024)
+Currently, I'm working on migrating the **"Add Reminder" dialogue** to a new design that not only improves usability but also aligns with Fyle's fresh design standards. This initiative involves updating both the **Settings** and **Admin** personas, where the dialogue is displayed using `Angular.js`. With a fresh design from **Figma** to follow, the goal is to make this UI sleek, modern, and user-friendly.
+
+### **Key Changes Involved:**
+
+- **CSS Updates**: We’re updating margins, paddings, and font sizes to match the latest FDL specifications.
+- **Layout Changes**: The form inputs, titles, and buttons will all get a facelift to follow new alignment rules.
+
+The initiative itself has a relatively quick turnaround—**1 week** (as exports API migration is pending from the last initiative I will work on this for a week and then get back to exports API migration) to get through everything, including design doc writing, dev work, testing, and release!
