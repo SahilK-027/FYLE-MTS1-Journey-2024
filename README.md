@@ -20,7 +20,7 @@ During my internship at Fyle, I got the opportunity to work on a variety of impa
 - **List View Alert Icons (Initiative 1)**: I contributed to an initiative that improved the alert icon visibility in list views, enhancing the user experience and making important notifications more accessible.
 - **Projects API Migration (Initiative 2)**: A crucial part of my internship was working on migrating the Projects API, which included handling active categories in Quick Fyle. This task required a deep understanding of the system and collaboration with other teams to ensure a smooth transition.
 
-Each of this initiative not only tested my technical skills but also gave me a chance to take ownership and contribute to real-world features. This experience laid the groundwork for my responsibilities as an MTS1, where the focus shifted from just implementing tasks to thinking holistically about the project, scalability, and future impact.
+Each of these initiatives has not only tested my technical skills but also given me a chance to take ownership and contribute to real-world features. This experience laid the groundwork for my responsibilities as an MTS1, where the focus shifted from just implementing tasks to thinking holistically about the project, scalability, and future impact.
 
 ## A Day in the Life of an MTS1 at Fyle 🌅
 Ever wondered what it’s like to be an MTS1 at Fyle? Let me take you on a quick trip through a typical day—where ownership, problem-solving, and building something impactful are all in a day’s work.
@@ -43,7 +43,7 @@ While coding, I also think about performance optimizations, scalability, and any
 
 ### 📋 1:30 PM - Lunch Break
 
-After an intense morning, it’s time for a well-deserved break. A good lunch, maybe a walk, little fun hobbies and then back to business. Being an MTS1 means I need to stay sharp, so stepping away from the screen for a bit helps refresh my mind.
+After an intense morning, it’s time for a well-deserved break. A good lunch, maybe a walk, some fun hobbies, and then back to business. Being an MTS1 means I need to stay sharp, so stepping away from the screen for a bit helps refresh my mind.
 
 ### 📝 2:30 PM - More code + Documentation + Sync-Ups
 
@@ -60,3 +60,14 @@ Afternoons are my most productive time. I’m either deep into fixing bugs or wo
 As the day winds down, I document any important learnings or insights from the day’s work. If there were any blockers, I note them and start planning for the next day. It’s not just about getting things done—it’s about making sure the next day is set up for success.
 
 By the end of the day, I’ve usually touched multiple aspects—coding, testing, documentation, and collaboration. And even though each day has its unique challenges, the constant learning and ownership make it rewarding. That’s the life of an MTS1 at Fyle—driven by responsibility, collaboration, and building things that last.
+
+## Corporate Cards API Migration 💳 (July 25 - Oct 17 2024)
+
+This quarter, I’ve been working on the **Corporate Cards API Migration**. This initiative has been a deep dive into corporate card systems and has taught me a lot about both technology and documentation.
+
+- **The Legendary ED Doc**: I started by writing a highly detailed ED (Engineering Design) document from scratch. This document has been invaluable throughout the project, serving as a reference for changes and guiding the implementation. This experience has taught me the importance of writing clear, detailed, and forward-thinking documentation.
+- **Test Cases, Test Cases, and More Test Cases**: For every change, I wrote thorough test cases. Writing tests for every change isn’t glamorous, but it’s essential. Catching those bugs before they sneak in is its reward.
+
+Throughout this initiative, I’ve learned so much about **VISA Nest, RTF, Virtual Cards**, and even how **Bank Statements** are handled. I also migrated APIs for **14 different actions**, and **reduced 10 redundant API calls**, all without a single P0 issue so far—feels like winning!!! This initiative has not only strengthened my technical skills but also sharpened my ability to handle complex migrations and work at scale.
+
+Still, one task about exports from this initiative is pending, we are planning to release it in the next two weeks before declaring complete victory.
