@@ -41,13 +41,13 @@ Ever wondered what it’s like to be an MTS1 at Fyle? Let me take you on a quick
 
 ### 📝 2:30 PM - More code + Documentation + Sync-Ups
 > I usually focus on writing a detailed technical spec for a new feature I am working on. This document lays out everything—API schemas, edge cases, testing strategies, and future-proofing plans. It’s not just a reference for the current project but a blueprint for anyone who works on it later.
-> Some days I also hop on a couple of sync-up calls with the team. These meetings are where we coordinate with engineers and team members ensures everything is moving in the right direction.
+> Some days I also hop on a couple of sync-up calls with the team. These meetings are where we coordinate with engineers and team members to ensure everything is moving in the right direction.
 
 ### 🔧 3:30 PM - 6:00 PM - Focused Work: Code, Bugs, and More Code
 > Afternoons are my most productive time. I’m either deep into fixing bugs or working on Initiative tasks. Each task requires a combination of attention to detail and a wider vision—how does this piece fit into the bigger picture?
 
 ### 🎯 6:30 PM - Wrapping Up
-> As the day winds down, I document any important learnings or insights from the day’s work. If there were any blockers, I note them and start planning for the next day. It’s not just about getting things done—it’s about making sure the next day is set up for success.
+> As the day winds down, I document any important learnings or insights from the day’s work. If there were any blockers, I noted them and started planning for the next day. It’s not just about getting things done—it’s about making sure the next day is set up for success.
 > By the end of the day, I’ve usually touched multiple aspects—coding, testing, documentation, and collaboration. And even though each day has its unique challenges, the constant learning and ownership make it rewarding. That’s the life of an MTS1 at Fyle—driven by responsibility, collaboration, and building things that last.
 
 ## 🔹 Corporate Cards API Migration 💳 (25th July 2024)
@@ -70,3 +70,9 @@ Currently, I'm working on migrating the **"Add Reminder" dialogue** to a new des
 - **Layout Changes**: The form inputs, titles, and buttons will all get a facelift to follow new alignment rules.
 
 The initiative itself has a relatively quick turnaround—**1 week** (as exports API migration is pending from the last initiative I will work on this for a week and then get back to exports API migration) to get through everything, including design doc writing, dev work, testing, and release!
+
+
+## 🔹 CI-CD ⛙ (17th Oct 2024)
+Today marked my first production deployment for the Fyle web app! 🎉 In addition to deploying the web app, I also managed the deployments for our Outlook and Chrome extensions. Balancing this new responsibility with my regular tasks has been quite exciting.
+
+In addition, I've taken the initiative to standardize our frontend deployment schedule. It's turning out to be a rewarding challenge (to get people to cherry-pick and test their changes before noon) but it has some fun to it! 😄
