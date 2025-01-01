@@ -51,15 +51,37 @@ Ever wondered what it’s like to be an MTS1 at Fyle? Let me take you on a quick
 > By the end of the day, I’ve usually touched multiple aspects—coding, testing, documentation, and collaboration. And even though each day has its unique challenges, the constant learning and ownership make it rewarding. That’s the life of an MTS1 at Fyle—driven by responsibility, collaboration, and building things that last.
 
 ## 🔹 Corporate Cards API Migration 💳 (25th July 2024)
+This quarter, I’ve been working on the Corporate Cards API Migration. This initiative has been a deep dive into corporate card systems and has taught me a lot about both technology and documentation.
 
-This quarter, I’ve been working on the **Corporate Cards API Migration**. This initiative has been a deep dive into corporate card systems and has taught me a lot about both technology and documentation.
+### The Legendary ED Doc
+I started by writing a highly detailed ED (Engineering Design) document from scratch. This document has been invaluable throughout the project, serving as a reference for changes and guiding the implementation. This experience has taught me the importance of writing clear, detailed, and forward-thinking documentation.
 
-- **The Legendary ED Doc**: I started by writing a highly detailed ED (Engineering Design) document from scratch. This document has been invaluable throughout the project, serving as a reference for changes and guiding the implementation. This experience has taught me the importance of writing clear, detailed, and forward-thinking documentation.
-- **Test Cases, Test Cases, and More Test Cases**: For every change, I wrote thorough test cases. Writing tests for every change isn’t glamorous, but it’s essential. Catching those bugs before they sneak in is its reward.
+### Test Cases, Test Cases, and More Test Cases
+For every change, I wrote thorough test cases. Writing tests for every change isn’t glamorous, but it’s essential. Catching those bugs before they sneak in is its reward.
 
-Throughout this initiative, I’ve learned so much about **VISA Nest, RTF, Virtual Cards**, and even how **Bank Statements** are handled. I also migrated APIs for **14 different actions**, and **reduced 10 redundant API calls**, all without a single P0 issue so far—feels like winning!!! This initiative has not only strengthened my technical skills but also sharpened my ability to handle complex migrations and work at scale.
+### Achievements
 
-Still, one task about exports from this initiative is pending, we are planning to release it in the next two weeks before declaring complete victory.
+- Throughout this initiative, I’ve learned so much about VISA Nest, RTF, Virtual Cards, and even how Bank Statements are handled. 
+- I also migrated APIs for 14 different actions, and reduced 10 redundant API calls, all without a single P0 issue so far—feels like winning! 
+- This initiative has not only strengthened my technical skills but also sharpened my ability to handle complex migrations and work at scale.
+
+### Export API Migration 🔄
+
+We’ve now completed the migration of the Export API as well, marking a significant milestone in this initiative. Export functionality allows users to generate detailed reports of their Corporate Card transactions, making it a crucial component.
+
+Frontend tasks for the Export API migration included:
+
+- Refactoring advanced settings for list view columns.
+
+- Transitioning user settings and default export preferences to the backend.
+
+- Rewriting new column configurations for the list view table.
+
+- Verifying export formulas with the backend team.
+
+This migration took three weeks and required close collaboration with the backend team. Rigorous testing ensured a smooth transition with significant improvements in functionality.
+
+With the Export API migration complete, this initiative is now officially wrapped up, delivering robust and scalable solutions across the board.
 
 ## 🔹 Move Reminder Dialog To FDL 🔔 (16th Oct 2024)
 Currently, I'm working on migrating the **"Add Reminder" dialogue** to a new design that not only improves usability but also aligns with Fyle's fresh design standards. This initiative involves updating both the **Settings** and **Admin** personas, where the dialogue is displayed using `Angular.js`. With a fresh design from **Figma** to follow, the goal is to make this UI sleek, modern, and user-friendly.
