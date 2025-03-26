@@ -22,34 +22,6 @@ During my internship at Fyle, I got the opportunity to work on a variety of impa
 
 Each of these initiatives has not only tested my technical skills but also given me a chance to take ownership and contribute to real-world features. This experience laid the groundwork for my responsibilities as an MTS1, where the focus shifted from just implementing tasks to thinking holistically about the project, scalability, and future impact.
 
-## 🔹 A Day in the Life of an MTS1 at Fyle 🌅
-Ever wondered what it’s like to be an MTS1 at Fyle? Let me take you on a quick trip through a typical day—where ownership, problem-solving, and building something impactful are all in a day’s work.
-
- ### 🚀 10:30 AM - The Work Begins
-> My day kicks off at around 10:30 AM. First things first—I review the tasks I wrapped up yesterday and see what’s still pending from the initiative milestones. This helps me plan the day effectively. I update our project management tools like ClickUp and Notion, where we track everything.
-> As an MTS1, I’m responsible for certain features or bugs, which means I take full ownership. It’s not just about checking off tasks—it’s about making sure everything aligns, and if something's off, it’s my job to steer it back on course. Once that’s sorted, I sync up with the team to ensure all stakeholders are updated on progress.
-
-### 🧪 11:00 AM - Testing Before Release
-> Next up is testing. As we usually do patch releases or full push around 12:30 PM, I usually test my changes if there are any outgoing commits to prod added by me. I review the tests I’ve written and dive into making sure everything functions as expected before the release. It’s all about quality control—whether it’s running automated tests or manually checking for edge cases that could sneak past.
-
-### 💻 12:00 PM - Deep Dive into Code
-> After the testing phase, it’s time to get into the VS code. \This is where ownership really comes into play—it's not just about writing the code, but also making sure that what I build today can handle tomorrow's challenges. I take time to revisit initiative documentation and align it with any new changes.
-> While coding, I also think about performance optimizations, scalability, and any potential edge cases that might crop up in the future. This is where I get to exercise my problem-solving skills to make sure the solution isn't just functional but future-proof.
-
-### 📋 1:30 PM - Lunch Break
-> After an intense morning 😂, it’s time for a well-deserved break. A good lunch, maybe a walk, some fun hobbies, and then back to business. Being an MTS1 means I need to stay sharp, so stepping away from the screen for a bit helps refresh my mind.
-
-### 📝 2:30 PM - More code + Documentation + Sync-Ups
-> I usually focus on writing a detailed technical spec for a new feature I am working on. This document lays out everything—API schemas, edge cases, testing strategies, and future-proofing plans. It’s not just a reference for the current project but a blueprint for anyone who works on it later.
-> Some days I also hop on a couple of sync-up calls with the team. These meetings are where we coordinate with engineers and team members to ensure everything is moving in the right direction.
-
-### 🔧 3:30 PM - 6:00 PM - Focused Work: Code, Bugs, and More Code
-> Afternoons are my most productive time. I’m either deep into fixing bugs or working on Initiative tasks. Each task requires a combination of attention to detail and a wider vision—how does this piece fit into the bigger picture?
-
-### 🎯 6:30 PM - Wrapping Up
-> As the day winds down, I document any important learnings or insights from the day’s work. If there were any blockers, I noted them and started planning for the next day. It’s not just about getting things done—it’s about making sure the next day is set up for success.
-> By the end of the day, I’ve usually touched multiple aspects—coding, testing, documentation, and collaboration. And even though each day has its unique challenges, the constant learning and ownership make it rewarding. That’s the life of an MTS1 at Fyle—driven by responsibility, collaboration, and building things that last.
-
 ## 🔹 Corporate Cards API Migration 💳 (25th July 2024)
 This quarter, I’ve been working on the Corporate Cards API Migration. This initiative has been a deep dive into corporate card systems and has taught me a lot about both technology and documentation.
 
@@ -93,8 +65,33 @@ Currently, I'm working on migrating the **"Add Reminder" dialogue** to a new des
 
 The initiative itself has a relatively quick turnaround—**1 week** (as exports API migration is pending from the last initiative I will work on this for a week and then get back to exports API migration) to get through everything, including design doc writing, dev work, testing, and release!
 
-
 ## 🔹 CI-CD ⛙ (17th Oct 2024)
 Today marked my first production deployment for the Fyle web app! 🎉 In addition to deploying the web app, I also managed the deployments for our Outlook and Chrome extensions. Balancing this new responsibility with my regular tasks has been quite exciting.
 
-In addition, I've taken the initiative to standardize our frontend deployment schedule. It's turning out to be a rewarding challenge (to get people to cherry-pick and test their changes before noon) but it has some fun to it! 😄
+### Highlights:
+- **Balancing Act:** Juggling production deployments with everyday tasks was both challenging and fun.
+
+- **Process Boost:** I initiated a standardized frontend deployment schedule (yes, convincing everyone to cherry-pick and test before noon has its fun moments!).
+
+## 🔹 Documentation & READMEs Revamp 📚
+- **Notion Overhaul:** I reorganized “The World of Design Docs” into neat, clear sections, making it super easy to find the right document.
+
+- **Updated READMEs:** Updated the READMEs for Fyle-app, Fyle-mobile-app, and Fyle-outlook.
+
+## 🔹 Display exact amount in mobile app
+Users were finding it tricky to see full amounts in decimals without extra clicks—so we knew it was time for a change!
+
+### The Plan:
+
+- Dashboard:
+   - Display up to 9 digits with two decimals.
+   - For amounts with 10+ digits, switch to a shorthand format.
+
+- Other Screens:
+   - Show up to 15 digits with two decimals for better clarity.
+
+### New Pipe 🛠️:
+
+- What’s New:: I created a new pipe to ensure exact currency formatting (no “K” or “M” shortcuts). This new pipe works as an override to Angular’s native `currencyPipe` while still respecting settings like skipSymbol and fraction.
+
+- It was a fun challenge to tweak the way we display amounts in the app. By using different pipes for different needs, we maintained the old implementation and achieved all the required consistency.
