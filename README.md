@@ -5,15 +5,15 @@ My Full-Time Journey at Fyle Inc. | MTS1 Role
 
 Hello, tech enthusiasts and aspiring developers! 👋
 
-Hopefully, you have jumped onto this repo after reading my [Internship-Journey](https://github.com/SahilK-027/Internship-Journey-Fyle-2024) if not I highly recommend going through that journey first.
+Hopefully, you have jumped onto this repo after reading my [Internship-Journey](https://github.com/SahilK-027/Internship-Journey-Fyle-2024), if not, I highly recommend going through that journey first.
 
-So, Fasten your seatbelts as I take you through my exciting leap from an intern to a full-time MTS-1 (Member of Technical Staff) at Fyle. This journey isn’t just about learning to code better but evolving as a developer, teammate, and problem-solver in a fast-paced, dynamic environment. As I like to mention this is not just a README; it's a living document, a story in progress. Join me as I navigate the challenges, celebrate victories, and immerse myself in the world of pixels and protocols.
+So, fasten your seatbelts as I take you through my exciting leap from an intern to a full-time MTS-1 (Member of Technical Staff) at Fyle. This journey isn’t just about learning to code better but evolving as a developer, teammate, and problem-solver in a fast-paced, dynamic environment. As I like to mention, this is not just a README; it's a living document, a story in progress. Join me as I navigate the challenges, celebrate victories, and immerse myself in the world of pixels and protocols.
 
 Buckle up, fellow coders! The journey begins here. Let the journey unfold! 🌟
 
 ## 🔹 From Internship to MTS1: Key Projects 🌱 
 
-During my internship at Fyle, I got the opportunity to work on a variety of impactful tasks that set the foundation for my role as an MTS1. I have worked on fixing numerous usability issues and bugs but here are some key projects I handled included:
+During my internship at Fyle, I got the opportunity to work on a variety of impactful tasks that set the foundation for my role as an MTS1. I have worked on fixing numerous usability issues and bugs, but here are some key projects I handled:
 
 - **StyleLint Upgrade Dependency**: I worked on upgrading the StyleLint dependency and documented the process as part of the infrastructure updates. This involved ensuring that the changes didn’t break existing workflows and maintaining consistency in the codebase.
 - **Date of Spend and Travel Field Name Issue**: This was an interesting challenge where I had to address discrepancies in field names for expenses, ensuring accurate data representation across the platform.
@@ -22,7 +22,7 @@ During my internship at Fyle, I got the opportunity to work on a variety of impa
 
 Each of these initiatives has not only tested my technical skills but also given me a chance to take ownership and contribute to real-world features. This experience laid the groundwork for my responsibilities as an MTS1, where the focus shifted from just implementing tasks to thinking holistically about the project, scalability, and future impact.
 
-## 🔹 Corporate Cards API Migration 💳 (25th July 2024)
+## 🔹 Corporate Cards API Migration 💳  (Initiative 3) (25th July 2024)
 This quarter, I’ve been working on the Corporate Cards API Migration. This initiative has been a deep dive into corporate card systems and has taught me a lot about both technology and documentation.
 
 ### The Legendary ED Doc
@@ -55,15 +55,15 @@ This migration took three weeks and required close collaboration with the backen
 
 With the Export API migration complete, this initiative is now officially wrapped up, delivering robust and scalable solutions across the board.
 
-## 🔹 Move Reminder Dialog To FDL 🔔 (16th Oct 2024)
-Currently, I'm working on migrating the **"Add Reminder" dialogue** to a new design that not only improves usability but also aligns with Fyle's fresh design standards. This initiative involves updating both the **Settings** and **Admin** personas, where the dialogue is displayed using `Angular.js`. With a fresh design from **Figma** to follow, the goal is to make this UI sleek, modern, and user-friendly.
+## 🔹 Move Reminder Dialog To FDL 🔔 (Initiative 4) (16th Oct 2024)
+Currently, I'm working on migrating the "Add Reminder" dialogue to a new design that not only improves usability but also aligns with Fyle's fresh design standards. This initiative involves updating both the Settings and Admin personas, where the dialogue is displayed using Angular.js. With a fresh design from Figma to follow, the goal is to make this UI sleek, modern, and user-friendly.
 
 ### **Key Changes Involved:**
 
 - **CSS Updates**: We’re updating margins, paddings, and font sizes to match the latest FDL specifications.
 - **Layout Changes**: The form inputs, titles, and buttons will all get a facelift to follow new alignment rules.
 
-The initiative itself has a relatively quick turnaround—**1 week** (as exports API migration is pending from the last initiative I will work on this for a week and then get back to exports API migration) to get through everything, including design doc writing, dev work, testing, and release!
+The initiative itself has a relatively quick turnaround—**1 week** (as exports API migration is pending from the last initiative, I will work on this for a week and then get back to exports API migration) to get through everything, including design doc writing, dev work, testing, and release!
 
 ## 🔹 CI-CD ⛙ (17th Oct 2024)
 Today marked my first production deployment for the Fyle web app! 🎉 In addition to deploying the web app, I also managed the deployments for our Outlook and Chrome extensions. Balancing this new responsibility with my regular tasks has been quite exciting.
@@ -78,8 +78,8 @@ Today marked my first production deployment for the Fyle web app! 🎉 In additi
 
 - **Updated READMEs:** Updated the READMEs for Fyle-app, Fyle-mobile-app, and Fyle-outlook.
 
-## 🔹 Display exact amount in mobile app
-Users were finding it tricky to see full amounts in decimals without extra clicks—so we knew it was time for a change!
+## 🔹 Display exact amount in mobile app (Initiative 5) (15th Nov 2024)
+Users were finding it tricky to see full amounts in decimals without extra clicks, so we knew it was time for a change!
 
 ### The Plan:
 
@@ -92,6 +92,18 @@ Users were finding it tricky to see full amounts in decimals without extra click
 
 ### New Pipe 🛠️:
 
-- What’s New:: I created a new pipe to ensure exact currency formatting (no “K” or “M” shortcuts). This new pipe works as an override to Angular’s native `currencyPipe` while still respecting settings like skipSymbol and fraction.
+- What’s New: I created a new pipe to ensure exact currency formatting (no “K” or “M” shortcuts). This new pipe works as an override to Angular’s native `currencyPipe` while still respecting settings like skipSymbol and fraction.
 
 - It was a fun challenge to tweak the way we display amounts in the app. By using different pipes for different needs, we maintained the old implementation and achieved all the required consistency.
+
+## 🔹 Swachh WebApp Abhiyan (1st Jan 2025)
+
+I contributed extensively to this initiative focused on polishing and unifying the Fyle Web App by addressing long-standing UI inconsistencies, usability issues, and visual fragmentation across the product. The goal was to elevate the overall quality and create a seamless, cohesive experience across platforms.
+
+**Key Improvements I worked on:**
+- Standardized sentence casing and language tone across Web App, Mobile App, Chrome Extension, Outlook Add-in, and Integrations using a mix of automation and manual review for a polished and professional look.
+- Refined micro-interactions and visuals, including smoother icon animations, updated sidebar colors for better hierarchy, consistent hover states, and an improved export dialog for more intuitive use.
+- Upgraded dashboards with team-level expense stats, payment mode filters in “My Expenses,” personalized user greetings, and streamlined corporate card zero-state flows for better visibility and engagement.
+- Visually modernized core UI screens by redesigning login/logout pages, replacing outdated illustrations, and fixing the Receipts/PDF viewer to preserve proper image and document aspect ratios.
+
+This initiative helped me zoom out, spot patterns, and work across the entire web app surface area. It was a deep dive into design fidelity, frontend rigor, and cross-team collaboration. [Read in detail here](https://stories.fylehq.com/p/swachh-webapp-abhiyan)
