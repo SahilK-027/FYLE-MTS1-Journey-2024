@@ -96,7 +96,7 @@ Users were finding it tricky to see full amounts in decimals without extra click
 
 - It was a fun challenge to tweak the way we display amounts in the app. By using different pipes for different needs, we maintained the old implementation and achieved all the required consistency.
 
-## 🔹 Swachh WebApp Abhiyan (1st Jan 2025)
+## 🔹 Swachh WebApp Abhiyan (1st Jan 2025) (Initiative 6)
 
 I contributed extensively to this initiative focused on polishing and unifying the Fyle Web App by addressing long-standing UI inconsistencies, usability issues, and visual fragmentation across the product. The goal was to elevate the overall quality and create a seamless, cohesive experience across platforms.
 
@@ -107,3 +107,14 @@ I contributed extensively to this initiative focused on polishing and unifying t
 - Visually modernized core UI screens by redesigning login/logout pages, replacing outdated illustrations, and fixing the Receipts/PDF viewer to preserve proper image and document aspect ratios.
 
 This initiative helped me zoom out, spot patterns, and work across the entire web app surface area. It was a deep dive into design fidelity, frontend rigor, and cross-team collaboration. [Read in detail here](https://stories.fylehq.com/p/swachh-webapp-abhiyan)
+
+
+## 🔹 C1-app v2 -> Platform API Migration (3rd April 2025) (Initiative 7)
+This was my first initiative in the C1 Expense Management domain (our custom solution for expense management to [capitalone.com](https://www.capitalone.com/), and I quickly ramped up on understanding the C1 App's architecture and workflows.
+
+**Here’s what I worked on:**
+- Successfully migrated `11+ legacy v2 APIs to the new Platform API` cluster in just `1.5 months`, ensuring improved consistency, scalability, and long-term maintainability of C1 Expense Management services.
+
+- Familiarized myself with the C1 App’s structure and quickly navigated complex flows and dependencies, which helped me deliver efficiently with minimal handholding.
+
+This initiative helped me build strong foundational knowledge of the C1 domain and made me more confident in handling cross-functional API-level migrations once more.
