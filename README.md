@@ -113,8 +113,31 @@ This initiative helped me zoom out, spot patterns, and work across the entire we
 This was my first initiative in the C1 Expense Management domain (our custom solution for expense management to [capitalone.com](https://www.capitalone.com/), and I quickly ramped up on understanding the C1 App's architecture and workflows.
 
 **Here’s what I worked on:**
-- Successfully migrated `11+ legacy v2 APIs to the new Platform API` cluster in just `1.5 months`, ensuring improved consistency, scalability, and long-term maintainability of C1 Expense Management services.
-
+- Migrated and released 11+ legacy v2 APIs (projects, levels, expenses, reports, vendors, employees, spender_employees, etc.) to the new Platform API cluster within just 1.5 months.
 - Familiarized myself with the C1 App’s structure and quickly navigated complex flows and dependencies, which helped me deliver efficiently with minimal handholding.
 
 This initiative helped me build strong foundational knowledge of the C1 domain and made me more confident in handling cross-functional API-level migrations once more.
+
+## 🔹 C1-app Expense Public API -> Platform API Migration (21st May 2025) (Initiative 8)
+Worked on the migration of the remaining Expense APIs from the C1 App to the Platform API
+
+Migration Phases:
+
+- 11 June → `/expense/permissions`, `/expense/delete/bulk`, `/expense/verify/bulk`
+
+- 17 June → `/platform/comments` (GET), `/platform/comments/bulk` (POST)
+
+- 26 June → `/employees/export`
+
+This initiative closed the loop on the overall migration effort, aligning all Expense Management APIs under the Platform ecosystem for greater uniformity and ease of integration.
+
+## 🔹 C1-app My Reports Page AngularJS → Angular Migration (26th June 2025) (Initiative 9)
+After multiple API migrations, this was my first Angular migration initiative, where I owned the entire process end-to-end.
+
+Key Contributions:
+
+- Wrote the Engineering Design Doc (ED) after gaining an understanding of the migration process.
+- Took full ownership from design to implementation, testing, and final rollout across all organizations in production at once.
+- Successfully migrated the My Reports page from AngularJS to Angular, boosting overall C1-app Angular traffic to 58%.
+
+This initiative marked my transition from API-focused contributions to also delivering on frontend modernization efforts.
