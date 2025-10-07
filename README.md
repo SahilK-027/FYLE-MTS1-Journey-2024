@@ -5,7 +5,7 @@ My Full-Time Journey at Fyle Inc. | MTS1 Role
 
 Hello, tech enthusiasts and aspiring developers! 👋
 
-Hopefully, you have jumped onto this repo after reading my [Internship-Journey](https://github.com/SahilK-027/Internship-Journey-Fyle-2024), if not, I highly recommend going through that journey first.
+Hopefully, you have jumped onto this repo after reading my [Internship-Journey](https://github.com/SahilK-027/Internship-Journey-Fyle-2024); if not, I highly recommend going through that journey first.
 
 So, fasten your seatbelts as I take you through my exciting leap from an intern to a full-time MTS-1 (Member of Technical Staff) at Fyle. This journey isn’t just about learning to code better but evolving as a developer, teammate, and problem-solver in a fast-paced, dynamic environment. As I like to mention, this is not just a README; it's a living document, a story in progress. Join me as I navigate the challenges, celebrate victories, and immerse myself in the world of pixels and protocols.
 
@@ -141,3 +141,16 @@ Key Contributions:
 - Successfully migrated the My Reports page from AngularJS to Angular, boosting overall C1-app Angular traffic to 58%.
 
 This initiative marked my transition from API-focused contributions to also delivering on frontend modernization efforts.
+
+## 🔹 Migrate vendors/all to platform/v1/<role>/merchants (25th Aug 2025) (Initiative 10)
+This was the time to again migrate a few APIs:
+
+Key Contributions:
+- Migrated vendors API from /vendors/all to /platform/v1/<role>/merchants; preserved autocomplete and added a fallback for missing category.
+- Switched vendor search to the platform API, updated the frontend to use display_name, tested and rolled out with no UX regressions.
+- Moved vendor API to the new platform endpoint and ensured the expense flow kept working end-to-end.
+
+## 🔹 Clean up audit trail and comments (11th Sep 2025) (Initiative 11)
+
+## 🔹 Migrate GET locations APIs Public to platform (26th Sep 2025) (Initiative 12)
+
