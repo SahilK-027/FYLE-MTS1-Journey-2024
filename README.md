@@ -131,7 +131,7 @@ Migration Phases:
 
 This initiative closed the loop on the overall migration effort, aligning all Expense Management APIs under the Platform ecosystem for greater uniformity and ease of integration.
 
-## 🔹 C1-app My Reports Page AngularJS → Angular Migration (26th June 2025) (Initiative 9)
+## 🔹 C1-app My Reports Page AngularJS → Angular Migration (1st July 2025) (Initiative 9)
 After multiple API migrations, this was my first Angular migration initiative, where I owned the entire process end-to-end.
 
 Key Contributions:
@@ -142,7 +142,7 @@ Key Contributions:
 
 This initiative marked my transition from API-focused contributions to also delivering on frontend modernization efforts.
 
-## 🔹 Sage rebranding (26th June 2025) (Initiative 10)
+## 🔹 Sage rebranding (31st  June 2025) (Initiative 10)
 After [Fyle got acquired by Sage](https://www.sage.com/investors/investor-downloads/press-releases/2025/07/sage-acquires-fyle-to-simplify-and-automate-expense-management-workflows-for-smbs/), it was our time to rebrand the client-facing apps from the Fyle theme to the Sage theme. I worked on rebranding the Integrations app. Which was again a new area for me.
 
 - Learned backend setup for an integrations app.
