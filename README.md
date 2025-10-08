@@ -142,7 +142,15 @@ Key Contributions:
 
 This initiative marked my transition from API-focused contributions to also delivering on frontend modernization efforts.
 
-## 🔹 Migrate vendors/all to platform/v1/<role>/merchants (25th Aug 2025) (Initiative 10)
+## 🔹 Sage rebranding (26th June 2025) (Initiative 10)
+After [Fyle got acquired by Sage](https://www.sage.com/investors/investor-downloads/press-releases/2025/07/sage-acquires-fyle-to-simplify-and-automate-expense-management-workflows-for-smbs/), it was our time to rebrand the client-facing apps from the Fyle theme to the Sage theme. I worked on rebranding the Integrations app. Which was again a new area for me.
+
+- Learned backend setup for an integrations app.
+- Worked on the following integrations: XERO, QBO, QBD, NetSuite, Sage Intacct.
+- Used Docker Desktop.
+- Worked on email development (templates and testing).
+
+## 🔹 Migrate vendors/all to platform/v1/<role>/merchants (25th Aug 2025) (Initiative 11)
 This was the time to again migrate a few APIs:
 
 Key Contributions:
@@ -150,7 +158,7 @@ Key Contributions:
 - Switched vendor search to the platform API, updated the frontend to use display_name, tested and rolled out with no UX regressions.
 - Moved vendor API to the new platform endpoint and ensured the expense flow kept working end-to-end.
 
-## 🔹 Clean up audit trail and comments (11th Sep 2025) (Initiative 11)
+## 🔹 Clean up audit trail and comments (11th Sep 2025) (Initiative 12)
 
-## 🔹 Migrate GET locations APIs Public to platform (26th Sep 2025) (Initiative 12)
+## 🔹 Migrate GET locations APIs Public to platform (26th Sep 2025) (Initiative 13)
 
