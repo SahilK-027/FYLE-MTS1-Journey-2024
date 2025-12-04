@@ -116,7 +116,7 @@ This was my first initiative in the C1 Expense Management domain (our custom sol
 - Migrated and released 11+ legacy v2 APIs (projects, levels, expenses, reports, vendors, employees, spender_employees, etc.) to the new Platform API cluster within just 1.5 months.
 - Familiarized myself with the C1 App’s structure and quickly navigated complex flows and dependencies, which helped me deliver efficiently with minimal handholding.
 
-This initiative helped me build strong foundational knowledge of the C1 domain and made me more confident in handling cross-functional API-level migrations once more.
+This initiative helped me build a strong foundation in the C1 domain and made me more confident in handling cross-functional API-level migrations.
 
 ## 🔹 C1-app Expense Public API -> Platform API Migration (21st May 2025) (Initiative 8)
 Worked on the migration of the remaining Expense APIs from the C1 App to the Platform API
@@ -129,7 +129,7 @@ Migration Phases:
 
 - 26 June → `/employees/export`
 
-This initiative closed the loop on the overall migration effort, aligning all Expense Management APIs under the Platform ecosystem for greater uniformity and ease of integration.
+This initiative closed the loop on the overall migration effort, aligning all Expense Management APIs under the Platform ecosystem for greater uniformity and easier integration.
 
 ## 🔹 C1-app My Reports Page AngularJS → Angular Migration (1st July 2025) (Initiative 9)
 After multiple API migrations, this was my first Angular migration initiative, where I owned the entire process end-to-end.
@@ -143,7 +143,7 @@ Key Contributions:
 This initiative marked my transition from API-focused contributions to also delivering on frontend modernization efforts.
 
 ## 🔹 Sage rebranding (31st  June 2025) (Initiative 10)
-After [Fyle got acquired by Sage](https://www.sage.com/investors/investor-downloads/press-releases/2025/07/sage-acquires-fyle-to-simplify-and-automate-expense-management-workflows-for-smbs/), it was our time to rebrand the client-facing apps from the Fyle theme to the Sage theme. I worked on rebranding the Integrations app. Which was again a new area for me.
+After [Fyle got acquired by Sage](https://www.sage.com/investors/investor-downloads/press-releases/2025/07/sage-acquires-fyle-to-simplify-and-automate-expense-management-workflows-for-smbs/), it was our time to rebrand the client-facing apps from the Fyle theme to the Sage theme. I worked on rebranding the Integrations app, which was again a new area for me.
 
 - Learned backend setup for an integrations app.
 - Worked on the following integrations: XERO, QBO, QBD, NetSuite, Sage Intacct.
@@ -151,7 +151,7 @@ After [Fyle got acquired by Sage](https://www.sage.com/investors/investor-downlo
 - Worked on email development (templates and testing).
 
 ## 🔹 Migrate vendors/all to platform/v1/<role>/merchants (25th Aug 2025) (Initiative 11)
-This was the time to again migrate a few APIs:
+This was the time to migrate a few APIs again:
 
 Key Contributions:
 - Migrated vendors API from /vendors/all to /platform/v1/<role>/merchants; preserved autocomplete and added a fallback for missing category.
@@ -159,6 +159,28 @@ Key Contributions:
 - Moved vendor API to the new platform endpoint and ensured the expense flow kept working end-to-end.
 
 ## 🔹 Clean up audit trail and comments (11th Sep 2025) (Initiative 12)
+Worked on frontend (FE) changes in the web and mobile apps, including redesigning the audit trails and report history sections.
 
 ## 🔹 Migrate GET locations APIs Public to platform (26th Sep 2025) (Initiative 13)
+The Goal of the initiative was to move the location service to the platform.
+- Worked on the frontend migration, including integrating the new platform APIs across different client applications like mobile, web, Outlook, and Chrome extension.
+- finished migration dev work in less than a week
 
+## 🔹 Migrate Dwolla calls to platform API (30th October 2025) (Initiative 14)
+This API migration was a little complex, not only because ACH and Dwolla were completely new areas for me, but also because it involved handling API key name changes, new persona-specific keys, payload changes, and a wide code impact (16+ components, 3 service files).
+
+Key Aspects of the initiative:
+- learned all Dwolla concepts (Customer, Funding Source, verification states) and ACH flows (micro-deposits, instant verification, why we use ACH).
+- Explored reimbursement settings, business types, business verification, org-level Dwolla requirements, and both spender and admin UX.
+- Documented and mapped end-to-end data flow from FE actions (Add bank, List customers) to platform APIs and Dwolla.
+- Wrote a comprehensive FE doc and test cases.
+
+Technical work:
+- API key name changes: Documented frontend usages of API keys and constants. Updated all call sites to the new platform API key names.
+- Persona-specific keys (spender vs admin): Implemented logic to select persona-based API keys and endpoints at a single decision point in shared modules.
+- Payload schema changes: This involved handling of API key names and using correct persona-specific payload keys while making UPDATE calls.
+- Null response handling: This was tricky to handle, as an ACH response for the `dwolla_customers` API could be null in the platform API. In public, this was not the case, or at least in the typescript code of the frontend, we had not handled the possibility of the response being null. I fixed this by adding explicit null-safe and throwing an ERROR on an empty response.
+- Code changes across UI: Updated more than 16 component files (UI components) while handling null response and ensuring nothing breaks at runtime.
+- Testing: Wrote detailed manual test cases covering all paths, edge cases, and error handling.
+
+The result: a safer migration that reduced per-component risk, improves readability, handles null response errors, and is ready for release once backend two-way sync and internal-auth dependencies are resolved.
